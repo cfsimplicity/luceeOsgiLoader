@@ -7,6 +7,8 @@ This CFML component allows java libraries that have been packaged as OSGi bundle
 
 You can use it to load a class directly from a given local bundle without worrying about whether the bundle has been installed.
 
+[More background details](https://blog.simplicityweb.co.uk/121/loading-java-libraries-dynamically-in-lucee-without-javaloader).
+
 ## Usage
 ### Prepare the bundle
  1. Ensure the jar you wish to load has been created as an OSGi bundle. At a minimum this will mean its META-INF/MANIFEST.MF contains `Bundle-SymbolicName` and `Bundle-Version` entries. Use the [`manifestRead()`](https://docs.lucee.org/reference/functions/manifestread.html) Lucee function to check. You will need these two values when installing or loading classes from the bundle.

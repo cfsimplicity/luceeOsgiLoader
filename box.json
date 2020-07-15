@@ -1,0 +1,20 @@
+{
+    "name" : "Lucee OsgiLoader",
+    "slug" : "lucee-osgiloader",
+    "version" : "1.0.0",
+    "shortDescription" : "A simple tool for installing OSGi bundles dynamically in Lucee",
+    "author" : "Julian Halliwell",
+    "location" : "https://github.com/cfsimplicity/luceeOsgiLoader/archive/v1.0.0.zip",
+    "homepage" : "https://github.com/cfsimplicity/luceeOsgiLoader",
+    "projectURL" : "https://github.com/cfsimplicity/luceeOsgiLoader",
+    "documentation" : "https://github.com/cfsimplicity/luceeOsgiLoader/blob/master/README.md",
+    "bugs" : "https://github.com/cfsimplicity/luceeOsgiLoader/issues",
+    "repository" : { "type" : "git", "URL" : "https://github.com/cfsimplicity/luceeOsgiLoader" },
+    "engines" : [ { "type" : "lucee", "version" : ">=5.x.x" } ],
+    "license" : [ { "type" : "MIT", "URL" : "https://github.com/cfsimplicity/luceeOsgiLoader/blob/master/LICENSE" } ],
+    "devDependencies" : { "testbox" : ">=2.1.x" },
+    "type" : "modules",
+    "keywords" : [ "osgi", "lucee", "module", "java", "jars" ],
+    "private" : "false",
+    "ignore" : [ "test" ]
+}
